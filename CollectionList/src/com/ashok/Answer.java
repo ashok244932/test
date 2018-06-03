@@ -1,0 +1,27 @@
+package com.ashok;
+
+public class Answer {
+
+private int id;
+private String answer;
+private String posterName;
+public int getId() {
+	return id;
+}
+public void setId(int id) {
+	this.id = id;
+}
+public String getPosterName() {
+	return posterName;
+}
+public void setPosterName(String posterName) {
+	this.posterName = posterName;
+}
+public String getAnswer() {
+	return answer;
+}
+public void setAnswer(String answer) {
+	this.answer = answer;
+}
+
+}
